@@ -64,7 +64,7 @@ This Java-based Search Engine project is designed to efficiently build and searc
 4. **Run the application.**
 
     ```
-    java Main
+    java Driver
     ```
 
 ## Contributing
