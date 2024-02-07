@@ -24,3 +24,51 @@ This Java-based Search Engine project is designed to efficiently build and searc
 </ul>
 
 <h2>Usage</h2>
+<ol>
+  <li>
+    Building the Inverted Index: The project provides functionalities to build the inverted index by crawling web pages and indexing the collected information.
+  </li>
+  <li>
+    Searching: Users can perform both exact and partial searches through the provided interface.
+  </li>
+</ol>
+
+<h2>
+  Dependencies
+</h2>
+<ul>
+  <li>Java</li>
+  <li>Jetty (for the web interface)</li>
+</ul>
+
+## Installation
+
+1. **Clone the repository.**
+
+    ```
+    git clone https://github.com/yourusername/search-engine.git
+    ```
+
+2. **Navigate to the project directory.**
+
+    ```
+    cd search-engine
+    ```
+
+3. **Compile the Java files.**
+
+    ```
+    javac *.java
+    ```
+
+4. **Run the application.**
+
+    ```
+    java Main
+    ```
+
+## Contributing
+Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
