@@ -52,7 +52,7 @@ This Java-based Search Engine project is designed to efficiently build and searc
 2. **Navigate to the project directory.**
 
     ```
-    cd search-engine
+    cd Search-Engine/src/main/java/edu/usfca/cs272/Driver.java
     ```
 
 3. **Compile the Java files.**
