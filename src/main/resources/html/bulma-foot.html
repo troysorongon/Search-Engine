@@ -1,0 +1,43 @@
+    </div>
+  </section> <!-- end messages -->
+
+  <!-- show form -->
+  <section class="section">
+    <div class="container">
+      <h2 class="title">Search</h2>
+
+      <form method="${method}" action="${action}">
+        <div class="field">
+          <label class="label" for="search">Enter Anything Here!</label>
+          <div class="control has-icons-left">
+            <input class="input" type="text" name="search" id="search">
+            <span class="icon is-small is-left">
+              <i class="fas fa-user"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="control">
+          <button class="button is-primary" type="submit">
+            <i class="fas fa-comment"></i>
+            Search
+          </button>
+        </div>
+        <input type="checkbox" id="exact" name="exact">
+        <label for="exact">Exact Search</label>
+        <input type="checkbox" id="reverse" name="reverse">
+        <label for="reverse">Reverse Order</label>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer ${darkMode ? 'has-background-dark has-text-light' : ''}">
+    <div class="content has-text-centered">
+      <p>This request was handled by thread ${thread}.</p>
+    </div>
+  </footer>
+ 
+  <div class="space-below-footer ${darkMode ? 'has-background-dark' : ''}"></div>
+ </body>
+
+</html>

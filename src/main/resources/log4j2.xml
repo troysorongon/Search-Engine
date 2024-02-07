@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <Appenders>
+    <Console name="console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%level: %m%ex{short.message}%n" />
+    </Console>
+    
+    <File name="file" fileName="./debug.log">
+      <PatternLayout pattern="[%003sequenceNumber %-2level{length=2}] %file:%line %thread - %message%ex{3}%n">
+      </PatternLayout>
+    </File>
+  </Appenders>
+  
+  <Loggers>
+    <Root level="OFF">
+      <AppenderRef ref="console" level="INFO" />
+      <AppenderRef ref="file" level="ALL" />
+    </Root>
+    <Logger name="edu.usfca.cs272.SearchEngine" level="FATAL" additivity="false">
+      <AppenderRef ref="console" />
+    </Logger>
+  </Loggers>
+</Configuration>
+
+
+
+
+
+
